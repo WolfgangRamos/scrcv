@@ -1,0 +1,30 @@
+# temp files
+*~
+
+# latex temp files
+*.aux
+*.out
+*.fls
+*.log
+*.bbl
+*.bcf
+*.bib.bak
+*.bib.blg
+*.blg
+*.glo
+*.hd
+*.idx
+*.ilg
+*.ind
+*.run.xml
+*.tmp
+*.cls
+
+# latex output files
+*.pdf
+
+# latexmk temp files
+*.fdb_latexmk
+
+# AucTex temp files
+**/auto

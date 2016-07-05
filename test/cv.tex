@@ -1,0 +1,80 @@
+\documentclass{scrcv}
+
+\usepackage[english]{babel}
+
+\newcommand{\Cpp}{C\raisebox{.25\height}{\scriptsize ++}}
+\newcommand{\Csharp}{C\raisebox{.25\height}{\scriptsize \#}}
+\newcommand{\less}{\raisebox{.25\height}{\scriptsize >}}
+
+\begin{document}
+\frenchspacing
+
+\header{John}{Doe}{Spiritual Leader} % Your name and current job title/field
+
+\begin{aside}
+\includegraphics[width=3.2cm]{gfx/john_doe.png}\\
+
+\section{Contact}
+
+Somestreet. 1\\
+City ZIP
+
+0123\,456789\\
+0123\,456789
+
+{\footnotesize\href{http://doe.xyz}{\ttfamily\fontseries{lt}\selectfont http:/\hspace{-2pt}/doe.xyz}}\\
+{\scriptsize\href{mailto:john@doe.xyz}{\ttfamily\fontseries{lt}\selectfont john@doe.xyz}}\\
+
+\section{Languages}
+
+English\\
+German (\textasciitilde B2/C1)\\
+
+\section{Computer\-languages}
+\vspace{.5ex}
+\textcolor{gray}{\headingfont \less{}5k lines of code:}\\
+Java, R, \LaTeX, Markdown
+
+\textcolor{gray}{\headingfont \less{}1k lines of code:}\\
+\Csharp
+
+\textcolor{gray}{\headingfont familiar:}\\
+\Cpp, PHP, Perl, JavaScript, SQL, HTML, XML, Haskell, Prolog, Erlang, Lisp, Bash, SPSS, IA-32~Assembler
+\end{aside}
+
+
+\section{Education}
+
+\begin{description}[entrylist]
+\item[01.2014--10.2014] \entryhead{Education}{Some University}
+  \begin{itemize}[itemizedentry]
+  \item really 
+  \item awesome
+  \item description
+  \end{itemize}
+\item[04.2010--04.2013] \entryhead{More Education}{Another University}\\
+  Some general description
+  \begin{itemize}[itemizedentry]
+  \item list
+  \item of
+  \item awesome
+  \item things
+  \item i
+  \item did
+  \end{itemize}
+\end{description}
+
+\section{Work Experience}
+
+\dots
+
+\section{Interests}
+
+\textit{professional:} 1st interest, 2nd interest
+
+\textit{personal:} eating, sleeping
+
+% Signature
+\cvsignature{Somecity, \today}{John Doe}
+
+\end{document}
