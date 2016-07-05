@@ -16,6 +16,6 @@ Put `scrcv.cls` in your TeX search path. Ideally you should use the directory th
 
 ## Usage
 
-See example `test/cv.tex`:
+See example `test/cv.tex`. Here is a preview:
 
 ![Example](./example.jpg)
