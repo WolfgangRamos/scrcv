@@ -13,3 +13,9 @@ and version 1.3 or later is part of all distributions of LaTeX version 2005/12/0
 ## Installation
 
 Put `scrcv.cls` in your TeX search path. Ideally you should use the directory the environment variable `TEXMFHOME` points to (use `echo ${TEXMFHOME}` to show that directory). You can put the files in a subdirectory if you like. I suggeset something like `${TEXMFHOME}/tex/latex/commonstuff/scrcv`. Caution: If you use a different directory of the TeX search path you might need to run `mktexlsr` (possibly as superuser) to make your TeX distribution find the new files.
+
+## Usage
+
+See example `test/cv.tex`:
+
+![Example](./example.jpg)
