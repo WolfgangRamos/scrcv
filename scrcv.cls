@@ -28,7 +28,7 @@
 %% page setup                                                                 %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\RequirePackage[left=5.3cm,top=2cm,right=2.4cm,bottom=2.4cm,nohead,nofoot]{geometry}
+\RequirePackage[left=5.3cm,top=2cm,right=1.8cm,bottom=2.4cm,nohead,nofoot]{geometry}
 
 \RequirePackage{scrpage2}
 \clearscrheadings
@@ -186,7 +186,7 @@
 \setlength{\TPHorizModule}{1cm}
 \setlength{\TPVertModule}{1cm}
 
-\newenvironment{aside}{%
+\newenvironment{aside}[1]{%
   \setlength{\parskip}{1ex}
   \let\oldsection\section
   \renewcommand{\section}[1]{%
@@ -194,7 +194,7 @@
     \textcolor{headercolor}{\Large\headingfont ##1}%
     \par%
   }
-  \begin{textblock}{3.3}(1.4, 4.1)
+  \begin{textblock}{3.3}(1.4, #1)
   \begin{flushright}
 }{%
   \end{flushright}
