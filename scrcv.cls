@@ -30,7 +30,7 @@
 
 \RequirePackage[left=5.3cm,top=2cm,right=1.8cm,bottom=2.4cm,nohead,nofoot]{geometry}
 
-\RequirePackage{scrpage2}
+\RequirePackage{scrlayer-scrpage}
 \clearscrheadings
 \ifoot{\hspace{5.1cm}\pagemark}
 \pagestyle{scrheadings}
@@ -115,7 +115,7 @@
   \begin{tikzpicture}[remember picture,overlay]
     \node [rectangle, fill=fillheader, anchor=north, minimum width=\paperwidth, minimum height=4cm] (box) at (current page.north){};
     \node [anchor=center] (name) at (box) {%
-      \KOMAoptions{fontsize=40pt}\color{header}%
+      \fontsize{40}{48}\selectfont\color{header}%
       {\thinfont #1}\,{\thickfont #2}
     };
     \node [anchor=north] at (name.south) {%
