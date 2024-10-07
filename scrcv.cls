@@ -170,7 +170,7 @@
 \RequirePackage{enumitem}
 
 \SetEnumitemKey{entrylist}{topsep=0pt, itemsep=\parskip, labelindent=0cm, labelsep=0pt, leftmargin=2.9cm, rightmargin=0pt, style=nextline, font=\datefont, align=left, listparindent=0cm, partopsep=0cm, parsep=0cm}
-\SetEnumitemKey{itemizedentry}{topsep=0.5ex, leftmargin=1em, labelindent=0cm, partopsep=0cm, labelsep=.47em,itemsep=0.4ex,parsep=0cm, label=\textcolor{lightgray}{\textbullet}}
+\SetEnumitemKey{itemizedentry}{topsep=0.5ex, leftmargin=1em, labelindent=0cm, partopsep=0cm, labelsep=.47em, itemsep=0.6ex, parsep=0cm, label=\textcolor{lightgray}{\textbullet}}
 
 \newcommand{\entryhead}[2]{{\headingfont\textcolor{headercolor}{#1}} \hfill {\footnotesize\color{lightgray}\thinfont #2}}
 
@@ -191,7 +191,7 @@
   \let\oldsection\section
   \renewcommand{\section}[1]{%
     \vspace{4\parskip}%
-    \textcolor{headercolor}{\Large\headingfont ##1}%
+    \textcolor{headercolor}{\LARGE\headingfont ##1}%
     \par%
   }
   \begin{textblock}{3.3}(1.4, #1)
